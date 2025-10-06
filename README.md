@@ -48,6 +48,17 @@
   iframe {
     display: none;
   }
+  footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 </style>
 <script src="https://www.youtube.com/iframe_api"></script>
 </head>
@@ -137,12 +148,9 @@ document.getElementById('ytInput').addEventListener('input', e=>{
     requestAnimationFrame(updateProgressBar);
   }
 });
-
 </script>
 
-<footer style="position: fixed; bottom: 10px; width: 100%; text-align: center; color: #94a3b8; font-size: 14px;">
-  Made with  ❤️ - By Armeen
-</footer>
+<footer>Made with ❤️ - By Armeen</footer>
 
 </body>
 </html>
